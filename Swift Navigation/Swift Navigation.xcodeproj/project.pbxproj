@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		23EFE92D2F8F851E001C415E /* Nekosia Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nekosia Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FE97C82F8FEF7D00C33FA8 /* Swift Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		23EFE92F2F8F851E001C415E /* Nekosia Gallery */ = {
+		23FE97CA2F8FEF7D00C33FA8 /* Swift Navigation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Nekosia Gallery";
+			path = "Swift Navigation";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23EFE92A2F8F851E001C415E /* Frameworks */ = {
+		23FE97C52F8FEF7D00C33FA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23EFE9242F8F851E001C415E = {
+		23FE97BF2F8FEF7D00C33FA8 = {
 			isa = PBXGroup;
 			children = (
-				23EFE92F2F8F851E001C415E /* Nekosia Gallery */,
-				23EFE92E2F8F851E001C415E /* Products */,
+				23FE97CA2F8FEF7D00C33FA8 /* Swift Navigation */,
+				23FE97C92F8FEF7D00C33FA8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		23EFE92E2F8F851E001C415E /* Products */ = {
+		23FE97C92F8FEF7D00C33FA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23EFE92D2F8F851E001C415E /* Nekosia Gallery.app */,
+				23FE97C82F8FEF7D00C33FA8 /* Swift Navigation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23EFE92C2F8F851E001C415E /* Nekosia Gallery */ = {
+		23FE97C72F8FEF7D00C33FA8 /* Swift Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23EFE9382F8F851F001C415E /* Build configuration list for PBXNativeTarget "Nekosia Gallery" */;
+			buildConfigurationList = 23FE97D32F8FEF7E00C33FA8 /* Build configuration list for PBXNativeTarget "Swift Navigation" */;
 			buildPhases = (
-				23EFE9292F8F851E001C415E /* Sources */,
-				23EFE92A2F8F851E001C415E /* Frameworks */,
-				23EFE92B2F8F851E001C415E /* Resources */,
+				23FE97C42F8FEF7D00C33FA8 /* Sources */,
+				23FE97C52F8FEF7D00C33FA8 /* Frameworks */,
+				23FE97C62F8FEF7D00C33FA8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				23EFE92F2F8F851E001C415E /* Nekosia Gallery */,
+				23FE97CA2F8FEF7D00C33FA8 /* Swift Navigation */,
 			);
-			name = "Nekosia Gallery";
+			name = "Swift Navigation";
 			packageProductDependencies = (
 			);
-			productName = "Nekosia Gallery";
-			productReference = 23EFE92D2F8F851E001C415E /* Nekosia Gallery.app */;
+			productName = "Swift Navigation";
+			productReference = 23FE97C82F8FEF7D00C33FA8 /* Swift Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23EFE9252F8F851E001C415E /* Project object */ = {
+		23FE97C02F8FEF7D00C33FA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					23EFE92C2F8F851E001C415E = {
+					23FE97C72F8FEF7D00C33FA8 = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 23EFE9282F8F851E001C415E /* Build configuration list for PBXProject "Nekosia Gallery" */;
+			buildConfigurationList = 23FE97C32F8FEF7D00C33FA8 /* Build configuration list for PBXProject "Swift Navigation" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 23EFE9242F8F851E001C415E;
+			mainGroup = 23FE97BF2F8FEF7D00C33FA8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 23EFE92E2F8F851E001C415E /* Products */;
+			productRefGroup = 23FE97C92F8FEF7D00C33FA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23EFE92C2F8F851E001C415E /* Nekosia Gallery */,
+				23FE97C72F8FEF7D00C33FA8 /* Swift Navigation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23EFE92B2F8F851E001C415E /* Resources */ = {
+		23FE97C62F8FEF7D00C33FA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23EFE9292F8F851E001C415E /* Sources */ = {
+		23FE97C42F8FEF7D00C33FA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		23EFE9362F8F851F001C415E /* Debug */ = {
+		23FE97D12F8FEF7E00C33FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		23EFE9372F8F851F001C415E /* Release */ = {
+		23FE97D22F8FEF7E00C33FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		23EFE9392F8F851F001C415E /* Debug */ = {
+		23FE97D42F8FEF7E00C33FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -266,7 +266,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.ankit.Nekosia-Gallery";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ankit.Swift-Navigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		23EFE93A2F8F851F001C415E /* Release */ = {
+		23FE97D52F8FEF7E00C33FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.ankit.Nekosia-Gallery";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ankit.Swift-Navigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -313,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23EFE9282F8F851E001C415E /* Build configuration list for PBXProject "Nekosia Gallery" */ = {
+		23FE97C32F8FEF7D00C33FA8 /* Build configuration list for PBXProject "Swift Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EFE9362F8F851F001C415E /* Debug */,
-				23EFE9372F8F851F001C415E /* Release */,
+				23FE97D12F8FEF7E00C33FA8 /* Debug */,
+				23FE97D22F8FEF7E00C33FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23EFE9382F8F851F001C415E /* Build configuration list for PBXNativeTarget "Nekosia Gallery" */ = {
+		23FE97D32F8FEF7E00C33FA8 /* Build configuration list for PBXNativeTarget "Swift Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23EFE9392F8F851F001C415E /* Debug */,
-				23EFE93A2F8F851F001C415E /* Release */,
+				23FE97D42F8FEF7E00C33FA8 /* Debug */,
+				23FE97D52F8FEF7E00C33FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 23EFE9252F8F851E001C415E /* Project object */;
+	rootObject = 23FE97C02F8FEF7D00C33FA8 /* Project object */;
 }

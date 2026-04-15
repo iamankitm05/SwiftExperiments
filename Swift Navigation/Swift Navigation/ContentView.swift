@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Nekosia Gallery
+//  Swift Navigation
 //
 //  Created by Ankit Kumar Ojha on 15/04/26.
 //
