@@ -7,12 +7,36 @@
 
 import SwiftUI
 
-struct ScreenAView: View {
+struct ScreenBView: View {
+    @EnvironmentObject var router: Router
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Screen B")
+                .roundedCard(.blue)
+            
+            Button {
+                router.push(.screenC)
+            } label: {
+                Text("Go To Screen C")
+                    .roundedCard(.green, height: 80)
+            }
+            
+            Button {
+                router.pop()
+            } label: {
+                HStack {
+                    Image(systemName: "arrow.left")
+                    Text("Go Back")
+                        .padding()
+                }
+                    .roundedCard(.red, height: 80)
+            }
+        }
     }
 }
 
 #Preview {
-    ScreenAView()
+    ScreenBView()
+        .environmentObject(Router())
 }

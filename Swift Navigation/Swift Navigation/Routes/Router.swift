@@ -1,8 +1,22 @@
-//
-//  File.swift
-//  Swift Navigation
-//
-//  Created by Ankit Kumar Ojha on 15/04/26.
-//
+import SwiftUI
+import Combine
 
-import Foundation
+class Router: ObservableObject {
+    @Published var path: [Route] = []
+    
+    func push(_ route: Route) {
+        path.append(route)
+    }
+    
+    func pop() {
+        _ = path.popLast()
+    }
+    
+    func reset() {
+        path = []
+    }
+    
+    func setRoot(_ route: Route) {
+        path = [route]
+    }
+}

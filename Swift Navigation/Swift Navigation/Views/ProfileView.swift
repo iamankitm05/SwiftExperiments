@@ -7,12 +7,25 @@
 
 import SwiftUI
 
-struct Profile: View {
+struct ProfileView: View {
+    @EnvironmentObject var router: Router
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Profile")
+                .roundedCard(.green)
+            
+            Button {
+                router.push(.screenA)
+            } label: {
+                Text("Go To Screen A")
+                    .roundedCard(.blue, height: 80)
+            }
+        }
     }
 }
 
 #Preview {
-    Profile()
+    ProfileView()
+        .environmentObject(Router())
 }

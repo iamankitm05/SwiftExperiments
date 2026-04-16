@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct GalleryView: View {
+    @EnvironmentObject var router: Router
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Gallery")
+                .roundedCard(.indigo)
+            
+            Button {
+                router.push(.screenA)
+            } label: {
+                Text("Go To Screen A")
+                    .roundedCard(.blue, height: 80)
+            }
+        }
     }
 }
 
 #Preview {
     GalleryView()
+        .environmentObject(Router())
 }

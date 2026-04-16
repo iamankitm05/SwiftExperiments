@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject var router: Router
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Home")
+                .roundedCard(.pink)
+            
+            Button {
+                router.push(.screenA)
+            } label: {
+                Text("Go To Screen A")
+                    .roundedCard(.blue, height: 80)
+            }
+        }
     }
 }
 
 #Preview {
     HomeView()
+        .environmentObject(Router())
 }

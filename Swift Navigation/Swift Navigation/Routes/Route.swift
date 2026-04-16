@@ -1,8 +1,3 @@
-//
-//  Route.swift
-//  Swift Navigation
-//
-//  Created by Ankit Kumar Ojha on 15/04/26.
-//
-
-import Foundation
+enum Route: Hashable {
+    case screenA, screenB, screenC
+}
