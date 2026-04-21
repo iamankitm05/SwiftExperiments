@@ -9,7 +9,28 @@ import SwiftUI
 
 struct CharacterCardSkeleton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 12) {
+            // Image placeholder
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: 80, height: 80)
+            
+            VStack(alignment: .leading, spacing: 8) {
+                
+                RoundedRectangle(cornerRadius: 6)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(height: 16)
+                
+                RoundedRectangle(cornerRadius: 6)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(width: 120, height: 14)
+                
+                RoundedRectangle(cornerRadius: 6)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(width: 80, height: 14)
+            }
+        }
+        .padding()
     }
 }
 

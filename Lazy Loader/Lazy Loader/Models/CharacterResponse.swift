@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CharacterResponse: Codable {
+struct CharacterResponse: Decodable {
     let results: [Character]
     let count: Int
     let pages: Int
